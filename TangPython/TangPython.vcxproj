@@ -111,8 +111,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="object.h" />
+    <ClInclude Include="TangPython.h" />
+    <ClInclude Include="TyDictObject.h" />
     <ClInclude Include="TyIntObject.h" />
+    <ClInclude Include="TyStrObject.h" />
     <ClInclude Include="TyTypeObject.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TangPython.cpp" />
+    <ClCompile Include="TyDictObject.cpp" />
+    <ClCompile Include="TyIntObject.cpp" />
+    <ClCompile Include="TyStrObject.cpp" />
+    <ClCompile Include="TyTypeObject.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

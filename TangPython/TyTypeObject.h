@@ -18,4 +18,6 @@ typedef struct tagTyTypeObject {
 	HashFun hash;
 }TyTypeObject;
 
+
+
 #endif // !TY_TYPE_OBJECT_H

@@ -24,5 +24,31 @@
     <ClInclude Include="TyIntObject.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="TyStrObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TyDictObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TangPython.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TangPython.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TyDictObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TyStrObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TyIntObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TyTypeObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
