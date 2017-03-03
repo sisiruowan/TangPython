@@ -60,7 +60,7 @@ static TyObject* string_add(TyObject* left, TyObject* right) {
 	else
 	{
 		strcpy_s(result->value, leftStr->value);
-		strcpy_s(result->value, rightStr->value);
+		strcat_s(result->value, rightStr->value);
 	}
 	return (TyObject*)result;
 

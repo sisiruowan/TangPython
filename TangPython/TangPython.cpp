@@ -4,7 +4,7 @@
 
 #include "TangPython.h"
 
-TyDictObject* m_LocalEnvironment = new TyDictObject;
+TyDictObject* m_LocalEnvironment = (TyDictObject*)TyDict_Create();
 void ExcuteCommand(string& command) {
 	string::size_type pos = 0;
 	if ((pos = command.find("print ")) != string::npos){
